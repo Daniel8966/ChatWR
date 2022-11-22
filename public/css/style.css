@@ -1,83 +1,83 @@
 *{
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body{
-    margin: 0;
-    padding: 0;
-    background-image: url(fondo.jpg);
-    color: white;
+  margin: 0;
+  padding: 0;
+  background-image: url(fondo.jpg);
+  color: white;
 }
 .titulo{
 
-    padding: 10px;
-    height: 4rem;
+  padding: 10px;
+  height: 4rem;
 }
 
 h1{
-    margin-left: 13rem;
-    font-size: 35px;
-    color: #ffffff;
-    font-family: Tahoma;
+  margin-left: 13rem;
+  font-size: 35px;
+  color: #ffffff;
+  font-family: Tahoma;
 }
 .container{
 
 }
 .scroll-bg{
-    width: 60vh;
-    padding: 15px;
-    margin-left: 2rem;
-    border-radius: 10px;
-    background-image: url(chat.jpg);
-    background-repeat: no-repeat;
-    height: 60vh;
-    margin-top: -18%;
-  }
-  .scroll-div{
-    border-radius: 10px;
-    width: 55vh;
-    height: 55vh;
-    overflow: hidden;
-    overflow-y: scroll;
-  }
-  #salida{
-    color: rgb(0, 0, 0);
-    text-align: justify;
-  }
-  .card{
-    background-image: url();
-    width: 391px;
-    height: 210px;
-    margin: 25px;
-    padding: 40px;
-    padding-right: 9%;
-    padding-top: 3%;
-  }
+  width: 60vh;
+  padding: 15px;
+  margin-left: 2rem;
+  border-radius: 10px;
+  background-image: url(chat.jpg);
+  background-repeat: no-repeat;
+  height: 60vh;
+  margin-top: -18%;
+}
+.scroll-div{
+  border-radius: 10px;
+  width: 55vh;
+  height: 55vh;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+#salida{
+  color: rgb(0, 0, 0);
+  text-align: justify;
+}
+.card{
+  background-image: url();
+  width: 391px;
+  height: 210px;
+  margin: 25px;
+  padding: 40px;
+  padding-right: 9%;
+  padding-top: 3%;
+}
+
+.text-success{
+  border-radius: 10px;
+  padding: 7px;
+  margin: 7px;
+  color: #A564D8;
+  border-color: #A564D8;
+  background-color: rgb(255, 255, 255);
   
-  .text-success{
-    border-radius: 10px;
-    padding: 7px;
-    margin: 7px;
-    color: #A564D8;
-    border-color: #A564D8;
-    background-color: rgb(255, 255, 255);
-    
-  }
-  ::placeholder { color: #A564D8; 
-  
-  }
-  #enviar{
-    border-radius: 8px;
-    background-color: #A564D8;
-    border-color: #A564D8;
-    color: white;
-    width: 65px;
-    height: 25px;
-    margin-left: 1rem;
-    padding: 2px;
-  }
-  #chat{
-    margin-top: 24rem;
-  }
+}
+::placeholder { color: #A564D8; 
+
+}
+#enviar{
+  border-radius: 8px;
+  background-color: #A564D8;
+  border-color: #A564D8;
+  color: white;
+  width: 65px;
+  height: 25px;
+  margin-left: 1rem;
+  padding: 2px;
+}
+#chat{
+  margin-top: 24rem;
+}
