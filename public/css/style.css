@@ -32,12 +32,11 @@ h1{
   padding: 15px;
   margin-left: 2rem;
   border-radius: 10px;
-  background-image: url(chat.jpg);
+  background-color: white;
   background-repeat: no-repeat;
   height: 26rem;
 }
 .scroll-div{
-  border-radius: 10px;
   width: 24rem;
   height: 24rem;
   overflow: hidden;
@@ -59,21 +58,20 @@ h1{
 }
 
 .text-success{
-  border-radius: 10px;
   padding: 7px;
   margin: 7px;
-  color: #A564D8;
-  border-color: #A564D8;
+  color: #64afd8;
+  border-color: #64afd8;
   background-color: rgb(255, 255, 255);
   
 }
-::placeholder { color: #A564D8; 
+::placeholder { color: #64afd8; 
 
 }
 #enviar{
   border-radius: 8px;
-  background-color: #A564D8;
-  border-color: #A564D8;
+  background-color: #64afd8;
+  border-color: #64afd8;
   color: white;
   width: 65px;
   height: 25px;
