@@ -7,6 +7,7 @@ let salida = document.getElementById('salida');
 let notificaciones = document.getElementById('notificaciones');
 let boton = document.getElementById('enviar');
 
+
 var clientes = [];
 
 boton.addEventListener('click', function () {
@@ -29,7 +30,7 @@ mensaje.addEventListener('keydown', function () {
 
 socket.on('chat:mensaje', function (data) {
   salida.innerHTML +=
-    '<p><strong>' + data.usuario + '</strong>: ' + data.mensaje + '</p>';
+    '<p><strong>' + data.usuario + '</strong>: '  + data.mensaje + '</p>';
   notificaciones.innerHTML = '';
 });
 
