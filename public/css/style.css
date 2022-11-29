@@ -28,7 +28,7 @@ h1{
   position: absolute;
 }
 .scroll-bg{
-  width: 26rem;
+  width: 450px;
   padding: 15px;
   border-radius: 10px;
   background-color: white;
@@ -36,7 +36,7 @@ h1{
   height: 26rem;
 }
 .scroll-div{
-  width: 24rem;
+  width: 430px;
   height: 23rem;
   overflow: hidden;
   overflow-y: scroll;
@@ -87,12 +87,12 @@ h1{
   margin-left: -15px;
   border-top-left-radius : 10px;
   border-top-right-radius : 10px;
-  width: 26rem;
+  width: 450px;
   height: 1.5rem;
   background-color: #279eff;
 }
 .cosas{
-  margin-left: 1rem;
+  margin-left: 2.5rem;
 }
 p{
   margin-top: 10px;
