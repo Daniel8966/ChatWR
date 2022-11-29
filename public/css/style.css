@@ -30,7 +30,6 @@ h1{
 .scroll-bg{
   width: 26rem;
   padding: 15px;
-  margin-left: 2rem;
   border-radius: 10px;
   background-color: white;
   background-repeat: no-repeat;
@@ -38,14 +37,16 @@ h1{
 }
 .scroll-div{
   width: 24rem;
-  height: 24rem;
+  height: 23rem;
   overflow: hidden;
   overflow-y: scroll;
+  margin-top: 12px;
   vertical-align: top;
 }
 #salida{
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-align: justify;
+  width: 20rem;
 }
 .card{
   background-image: url();
@@ -60,25 +61,49 @@ h1{
 .text-success{
   padding: 7px;
   margin: 7px;
-  color: #64afd8;
-  border-color: #64afd8;
+  color: #6EB8F5;
+  border-color: #6EB8F5;
   background-color: rgb(255, 255, 255);
   
 }
-::placeholder { color: #64afd8; 
+::placeholder { color: #6EB8F5; 
 
 }
 #enviar{
   border-radius: 8px;
-  background-color: #64afd8;
-  border-color: #64afd8;
+  background-color: #279eff;
+  border-color: #279eff;
   color: white;
   width: 65px;
   height: 25px;
-  margin-left: 1rem;
   padding: 2px;
 }
 #chat{
   vertical-align: top;
   margin-top: 24rem;
+}
+.encabezado{
+  margin-top: -15px;
+  margin-left: -15px;
+  border-top-left-radius : 10px;
+  border-top-right-radius : 10px;
+  width: 26rem;
+  height: 1.5rem;
+  background-color: #279eff;
+}
+.cosas{
+  margin-left: 1rem;
+}
+p{
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #6EB8F5;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 7px;
+  height: auto;
+  width: 20rem;
+  word-wrap: break-word;
 }
